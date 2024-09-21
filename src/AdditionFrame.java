@@ -7,13 +7,23 @@ public class AdditionFrame extends JFrame {//extended JFrame so that when obj of
     private JLabel l3;
     private JTextField t1;
     private JTextField t2;
+    private JButton b1;
 
     public void initComponents(){//Function to initialize components
         panel.setLayout(null);//To set the layout of the application, null means we can do on our will,every container has setLayout function
-        l1.setBounds(100,50,100,20);
-        t1.setBounds(188,50,100,20);
+        l1.setBounds(100,80,100,20);
+        t1.setBounds(205,80,100,20);
+        l2.setBounds(100,110,120,20);
+        t2.setBounds(205,110,100,20);
+        b1.setBounds(150,150,100,20);
+        l3.setBounds(120,180,100,20);
         panel.add(l1);//To add label on panel
         panel.add(t1);
+        panel.add(l2);
+        panel.add(t2);
+        panel.add(b1);
+        panel.add(l3);
+
 
 
     }
